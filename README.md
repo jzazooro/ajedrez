@@ -38,7 +38,10 @@ El diagrama de flujo que tenemos en nuestro codigo es el siguiente:
     return
 partida_ajedrez('partida1.txt')
 
-```def tablero(nombre_fichero, n):
+
+
+
+def tablero(nombre_fichero, n):
     f=open(nombre_fichero, 'r')
     tableros= f.read().split('\n')
     for i in tableros[n*9:n*9+8]:
